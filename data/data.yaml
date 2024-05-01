@@ -1,0 +1,1530 @@
+companies:
+- description: The gaming company behind the games like Control, Alan Wake and Max
+    Payne
+  name: Remedy Entertainment
+  stack:
+  - C sharp
+  - C++
+  - Docker
+  - Go
+  - Kubernetes
+  - Python
+  tags: []
+  website: https://www.remedygames.com/
+- description: Digital financial management services for freelancers and small businesses.
+    A nice workplace with a low hierarchy and a multinational team.
+  name: Holvi
+  stack:
+  - Amazon Aws
+  - Angular
+  - Django
+  - Docker
+  - JavaScript
+  - PostgreSQL
+  - Python
+  - Vue.js
+  tags: []
+  website: https://www.holvi.com/fi-en/
+- description: Meru aims to create a completely new form of treatment for mental health
+    problems, which enables quick access to treatment and better treatment results.
+  name: Meru Health
+  stack:
+  - JavaScript
+  - Node.js
+  - PostgreSQL
+  - React
+  - React Native
+  - Webpack
+  tags: []
+  website: https://www.meruhealth.com/
+- description: A fast-growing product company providing cloud services on an “infrastructure-as-a-service”
+    basis.
+  name: UpCloud
+  stack:
+  - CSS3
+  - Go
+  - HTML5
+  - Linux
+  - Next.js
+  - PostgreSQL
+  - Python
+  - React
+  - TypeScript
+  tags: []
+  website: https://upcloud.com/
+- description: A consulting company that combines the best parts of consulting and
+    entrepreneurship.
+  name: Mavericks
+  stack:
+  - .NET
+  - Amazon Aws
+  - Android
+  - Ansible
+  - JavaScript
+  - Jenkins
+  - Kotlin
+  - Microsoft Azure
+  - NoSQl
+  - Puppet
+  - Python
+  - React
+  - Swift
+  - Tekton
+  - Terraform
+  - TypeScript
+  - flutter
+  - iOS
+  tags: []
+  website: https://mavericks.fi/
+- description: Varjo develops VR and XR technology s in Finland. Their human eye resolution
+    virtual headsets are designed for professional use in various industries.
+  name: Varjo
+  stack:
+  - Amazon Aws
+  - C
+  - C++
+  - DynamoDB
+  - Javascript
+  - Linux
+  - Node.js
+  - Python
+  - React
+  - TypeScript
+  tags: []
+  website: https://varjo.com/
+- description: S Group is a customer-owned Finnish network of companies in the retail
+    and service sectors, with a large network of outlets in Finland.
+  name: SOK
+  stack:
+  - Amazon Aws
+  - Apollo
+  - Docker
+  - Elastic Search
+  - GraphQL
+  - Node.js
+  - React
+  - Serverless
+  - Terraform
+  - TypeScript
+  - TypeScript
+  tags: []
+  website: https://s-ryhma.fi/
+- description: Elisa is a Finnish telecommunications company founded in 1882. Elisa
+    offers fixed and mobile subscriptions and broadband subscriptions.
+  name: Elisa
+  stack:
+  - Apache Kafka
+  - Apache Spark
+  - Docker
+  - Go
+  - Java
+  - Kubernetes
+  - MariaDB
+  - MySQL
+  - PostgreSQL
+  - Python
+  - R
+  - SQL
+  tags: []
+  website: https://elisa.fi/
+- description: A company that builds digital products for the residential real estate
+    market based on distributed ledger technology.
+  name: Tomorrow Tech
+  stack:
+  - Clojure
+  - Java
+  - Kotlin
+  - Kubernetes
+  - Microsoft Azure
+  - Scala
+  tags: []
+  website: https://tomorrow.fi/
+- description: Reaktor is a technology company, specialized in design and development
+    of digital services and products.
+  name: Reaktor
+  stack:
+  - Amazon Aws
+  - Clojure
+  - Flutter
+  - GraphQL
+  - Java
+  - JavaScript
+  - Kotlin
+  - Microsoft Azure
+  - Node.js
+  - Python
+  - React
+  - SQL
+  - Scala
+  - TypeScript
+  tags: []
+  website: https://www.reaktor.com/
+- description: One-stop shop for all your wholesale.
+  name: Droppe
+  stack:
+  - Amazon Aws
+  - CircleCI
+  - Docker
+  - GraphQL
+  - Next.js
+  - PostgreSQL
+  - React
+  - TypeScript
+  tags: []
+  website: https://droppe.fi/osta/
+- description: Fingersoft is a Finnish video game developer based in Oulu. Fingersoft
+    is one of the most northern game studios in the world.
+  name: Fingersoft
+  stack:
+  - Bash
+  - C++
+  - Java
+  - Linux
+  - NoSQL
+  - Objective--C
+  - Python
+  - Unity
+  tags: []
+  website: https://fingersoft.com/
+- description: Kisko Labs is a software company established in 2007. Their mission
+    is to help businesses operate in a digital world.
+  name: Kisko Labs
+  stack:
+  - Amazon Fargate
+  - Docker
+  - GraphQL
+  - Heroku
+  - PostgreSQL
+  - REST
+  - React
+  - Redux
+  - Ruby
+  - Ruby on Rails
+  tags: []
+  website: https://www.kiskolabs.com/en/
+- description: Procurement analytics software company.
+  name: Sievo
+  stack:
+  - .NET
+  - C sharp
+  - Databricks
+  - JavaScript
+  - Microsoft Azure
+  - Powershell
+  - React
+  - Redux
+  - SQL
+  - Terraform
+  tags: []
+  website: https://sievo.com/
+- description: Telia Company AB is a Swedish multinational telecommunications company
+    and mobile network operator.
+  name: Telia
+  stack:
+  - Amazon Aws
+  - Amazon DynamoDB
+  - Apache Spark
+  - Docker
+  - GraphQL
+  - Java
+  - JavaScript
+  - MS SQL
+  - Node.js
+  - PostgreSQL
+  - Python
+  - R
+  - React
+  - React Native
+  - SQL
+  - Scala
+  - Terraform
+  - TypeScript
+  tags: []
+  website: https://www.teliacompany.com/
+- description: The company wants to democratize AI and create new business opportunities
+    with it.
+  name: Silo.ai
+  stack:
+  - Amazon Aws
+  - Angular
+  - Apache Airflow
+  - Bitbucket
+  - Docker
+  - Flask
+  - Java
+  - Jenkins
+  - Jupyter
+  - Kubeflow
+  - Kubernetes
+  - MLFlow
+  - Meteor
+  - MongoDB
+  - Node.js
+  - PostgreSQL
+  - Python
+  - React
+  - Scikit--learn
+  - Vue.js
+  tags: []
+  website: https://silo.ai/
+- description: A growing and developing company that reforms healthcare and preventive
+    occupational health care.
+  name: Aava
+  stack:
+  - Amazon Aws
+  - JavaScript
+  - Node.js
+  - PostgreSQL
+  - React
+  - SQL
+  - TypeScript
+  tags: []
+  website: https://www.aava.fi/en/frontpage/
+- description: A Finnish growth rocket that offers restaurant food delivery services
+    in more than 20 countries.
+  name: Wolt
+  stack:
+  - Amazon Aws
+  - Apache Kafka
+  - Celery
+  - Docker
+  - Elasticsearch
+  - FastAPI
+  - Flask
+  - Jenkins
+  - Kotlin
+  - Kubernetes
+  - MongoDB
+  - PostgreSQL
+  - Python
+  - React Native
+  - Redis
+  - Scala
+  - Scala
+  - Terraform
+  - TypeScript
+  - MLFlow
+  - Flyte
+  - Apache Airflow
+  - Apache Spark
+  tags: []
+  website: https://wolt.com/en
+- description: Umbra is trying to revolutionize the 3D visualization and graphics
+    rendering industry.
+  name: Umbra
+  stack:
+  - Amazon Aws
+  - C++
+  - Docker
+  - Java
+  - Scala
+  tags: []
+  website: https://umbra3d.com/
+- description: Polar Squad offers consulting on rapid, scalable and reliable software
+    development practices and cloud environments.
+  name: Polar Squad
+  stack:
+  - Amazon Aws
+  - Ansible
+  - CD
+  - CI
+  - Docker
+  - Kubernetes
+  - Microsoft Azure
+  - Terraform
+  tags: []
+  website: https://polarsquad.com/
+- description: Sharper Shape helps electric network operators improve the reliability
+    and safety of their assets by providing transformative T&D inspection solution
+    .
+  name: Sharper Shape
+  stack:
+  - Amazon Aws
+  - C
+  - C++
+  - Docker
+  - Fiona
+  - GDAL
+  - Go
+  - Go
+  - Kubernetes
+  - Python
+  - Shapely
+  tags: []
+  website: https://sharpershape.com/
+- description: Nordea is harnessing the power of technology to reinvent the future
+    of banking.
+  name: Nordea
+  stack:
+  - Apache Kafka
+  - Apache Spark
+  - Bitbucket
+  - Cypress
+  - Docker
+  - GIT
+  - Hadoop
+  - Java
+  - Jenkins
+  - Kubernetes
+  - Python
+  - SQL
+  - Scala
+  tags: []
+  website: https://www.nordea.fi/en/
+- description: Nixu is a cybersecurity services company on a mission to keep the digital
+    society running.
+  name: Nixu
+  stack:
+  - Bash
+  - Docker
+  - Java
+  - Javascript
+  - Jython
+  - Kubernetes
+  - Linux
+  - Microsoft Azure
+  - Node.js
+  - Python
+  - REST
+  - React
+  - Robot Framework
+  - SQL
+  tags: []
+  website: https://www.nixu.com/
+- description: ICEYE manufactures satellites and provides reliable and up-to-date
+    radar images to its customers.
+  name: ICEYE
+  stack:
+  - Amazon Aws
+  - Apache Airflow
+  - C
+  - C++
+  - Docker
+  - Hadhoop
+  - JavaScript
+  - KubeFlow
+  - Kubernetes
+  - PHP
+  - PostGIS
+  - Python
+  - SQL
+  - Spring IO
+  - Terraform
+  tags: []
+  website: https://www.iceye.com/
+- description: Solita is a technology, data and design company with excellent work-life
+    balance. This is achieved through culture and a management that understands and
+    supports the challenges of family life.
+  name: Solita
+  stack:
+  - .NET
+  - Amazon Aws
+  - C sharp
+  - Clojure
+  - Episerver
+  - Java
+  - JavaScript
+  - Node.js
+  - PostgreSQL
+  tags: []
+  website: https://www.solita.fi/
+- description: Valamis, which has gained international fame and won awards, specializes
+    in the digitalization of learning. They collaborate with numerous famed organizations,
+    including NASA.
+  name: Valamis
+  stack:
+  - Apache Kafka
+  - Java
+  - JavaScript
+  - Kotlin
+  - Microsoft Azure
+  - Node.js
+  - React
+  - Scala
+  tags: []
+  website: https://www.valamis.com/
+- description: A consulting company with an amazing team spirit. An experienced multinational
+    team that regularly learns new technologies and skills together.
+  name: New Things Co
+  stack:
+  - Amazon Aws
+  - Clojure
+  - Java8
+  - JavaScript
+  - MariaDB
+  - Node.js
+  - PostgreSQL
+  - Ramda
+  - React
+  - Redux
+  - RxJS
+  - Scala
+  - Spring Boot
+  - TypeScript
+  tags: []
+  website: https://www.newthings.co/
+- description: Starship solves the last mile problem of food and package deliveries
+    with a network of autonomous robots. Solid funding and big enthusiasm to scale
+    the business up.
+  name: Starship
+  stack:
+  - Amazon Aws
+  - Apache Kafka
+  - Elixir
+  - Go
+  - GraphQL
+  - JavaScript
+  - Kubernetes
+  - Node.js
+  - TypeScript
+  tags: []
+  website: https://www.starship.xyz/
+- description: Supermetrics picks up all the marketing data you need and brings it
+    to your go-to reporting, analytics, or storage platform
+  name: Supermetrics
+  stack:
+  - GCP
+  - Java
+  - MySQL
+  - Node.js
+  - PHP
+  - PostgreSQL
+  - React
+  - Redis
+  - SQL
+  - TypeScript
+  tags: []
+  website: https://supermetrics.com/
+- description: Finland's best known cyber security company. Consistently ranks as
+    one of most appealing employers in the IT industry.
+  name: F-Secure
+  stack:
+  - Amazon Aws
+  - Android
+  - C sharp
+  - C++
+  - Java
+  - JavaScript
+  - Linux
+  - Objective--C
+  - Python
+  - iOS
+  tags: []
+  website: https://www.f-secure.com/en
+- description: CHAOS combines urban non-traditional data together with traditional
+    real estate data in one dynamic cloud platform.
+  name: CHAOS
+  stack:
+  - Docker
+  - GCP
+  - Kubernetes
+  - PostgreSQL
+  - Python
+  - React
+  tags: []
+  website: https://chaosarchitects.com/
+- description: Huutokaupat.com is a remote work -friendly company that brings auctions
+    to the general public. Thumbs up for being able to provide opportunities for junior
+    developers too.
+  name: Huutokaupat.com
+  stack:
+  - Amazon Aws
+  - GraphQL
+  - NoSQL
+  - PHP
+  - React
+  - TypeScript
+  tags: []
+  website: https://huutokaupat.com/
+- description: Howspace builds an AI-based collaboration platform that can be used,
+    for example, to facilitate workshops or participative change management. Remote-first-company.
+  name: Howspace
+  stack:
+  - Amazon Aws
+  - JavaScript
+  - MongoDB
+  - PHP
+  - Python
+  - jQuery
+  tags: []
+  website: https://www.howspace.com/
+- description: Solibri is providing out-of-the-box tools for construction industry.
+    Their software offerings provide BIM validation, compliance control, design process
+    coordination, design review, analysis and code checking.
+  name: Solibri
+  stack:
+  - Amazon Aws
+  - Databricks
+  - Docker
+  - Go
+  - Microsoft Azure
+  - Python
+  - SQL
+  - Scala
+  tags: []
+  website: https://www.solibri.com/
+- description: A versatile consulting company that exudes good vibes. A low hierarchy
+    and extensive employee benefits.
+  name: HiQ
+  stack:
+  - Amazon Aws
+  - Android
+  - Angular
+  - Java
+  - Microsoft Azure
+  - NoSQL
+  - Node.js
+  - React
+  - SQL
+  - Vue.js
+  - iOS
+  tags: []
+  website: https://hiq.fi/
+- description: We empower people across the Nordics to share life through joyful exchanges.
+    We do this by offering them a complete product suite for all their everyday payments.
+  name: Mobile Pay
+  stack:
+  - Apache Cassandra
+  - C sharp
+  - MSSQL
+  - MongoDB
+  - MySQL
+  - PostgreSQL
+  tags: []
+  website: https://mobilepaygroup.com/
+- description: The world's leading provider of game engines, a product that allows
+    anyone, regardless of skill level and industry, to create eye-catching 3D content.
+    Multinational team, inclusiveness is the cornerstone of culture.
+  name: Unity
+  stack:
+  - Amazon Aws
+  - Apache Kafka
+  - C
+  - C++
+  - Docker
+  - Go
+  - Java
+  - JavaScript
+  - Kubernetes
+  - MongoDB
+  - Node.js
+  - OpenGL
+  - Python
+  - Redis
+  - Rust
+  - Scala
+  tags: []
+  website: https://unity.com/
+- description: A consulting company specializing in growth hacking, e-commerce and
+    Salesforce related thingies.
+  name: Columbia Road
+  stack:
+  - .NET
+  - Amazon Aws
+  - Angular
+  - C sharp
+  - Go
+  - J2EE
+  - Java
+  - JavaScript
+  - Microsoft Azure
+  - PHP
+  - PostgreSQL
+  - Python
+  - React
+  - Ruby
+  - SQL
+  - Scala
+  - Scala
+  - Vue.js
+  tags: []
+  website: https://www.columbiaroad.com/
+- description: Virtual learning environments and solutions that take advantage of
+    augmented reality, virtual reality, 3D printing, and 360 imaging and scanning.
+    3D Bear creates meaningful products, but still has a laid-back work culture.
+  name: 3D Bear
+  stack:
+  - .NET
+  - C sharp
+  - Microsoft Azure
+  tags: []
+  website: https://www.3dbear.io/
+- description: An e-commerce giant that is one of the best places to do e-commerce
+    globally.
+  name: Zalando
+  stack:
+  - Amazon Aws
+  - Apache Airflow
+  - Apache Cassandra
+  - Apache Kafka
+  - Clojure
+  - Databricks
+  - Docker
+  - Go
+  - GraphQL
+  - Hadoop
+  - Java
+  - JavaScript
+  - Kubernetes
+  - Nginx
+  - PostgreSQL
+  - Python
+  - Scala
+  - Swift
+  - TypeScript
+  tags: []
+  website: https://www.zalando.fi/
+- description: A large consulting firm that is listed as one of the best companies
+    to work for consistently. Continuous development and self-directing work is how
+    Vincit rolls.
+  name: Vincit
+  stack:
+  - .NET
+  - Amazon Aws
+  - Angular
+  - C
+  - C sharp
+  - C++
+  - Clojure
+  - Java
+  - Kotlin
+  - Microsoft Azure
+  - Node.js
+  - Python
+  - React
+  - Vue.js
+  tags: []
+  website: https://www.vincit.fi/en/
+- description: This company is on its way to becoming the world’s leading database-as-a-service
+    provider.
+  name: Aiven
+  stack:
+  - Apache Cassandra
+  - Apache Kafka
+  - Go
+  - Java
+  - JavaScript
+  - Linux
+  - MySQL
+  - PostgreSQL
+  - Python
+  - React
+  - Scala
+  - TypeScript
+  tags: []
+  website: https://aiven.io/
+- description: An engineering company that has retained its position as one of the
+    dev geeks' favorite workplaces. Has recently focused on increasing well-being
+    and competence development services for its experts.
+  name: Nitor
+  stack:
+  - Amazon Aws
+  - Cjolure
+  - Firebase
+  - Flutter
+  - GraphQL
+  - Java
+  - Java
+  - JavaScript
+  - Jetpack
+  - Kotlin
+  - Microsoft Azure
+  - Node.js
+  - Objective--C
+  - Python
+  - R
+  - React Native
+  - Scala
+  - Swift
+  tags: []
+  website: https://nitor.com/en
+- description: The flagship of DevOps in Europe. A versatile company with really interesting
+    customers.
+  name: Eficode
+  stack:
+  - Amazon Aws
+  - CI
+  - Clojure
+  - Java
+  - JavaScript
+  - Microsoft Azure
+  - Node.js
+  - Python
+  - React
+  - Ruby
+  - Scala
+  tags: []
+  website: https://www.eficode.com/fi/
+- description: A consulting company that excels in design, software and analytics.
+  name: Bitfactor
+  stack:
+  - Amazon Aws
+  - CSS3
+  - HTML5
+  - Java
+  - JavaScript
+  - Microsoft Azure
+  - Node.js
+  - React
+  tags: []
+  website: https://loihdefactor.com/
+- description: Ōura Health is a Finnish health technology company, best known for
+    the Oura Ring.
+  name: Oura
+  stack:
+  - Amazon Aws
+  - Android
+  - Angular
+  - C
+  - C++
+  - Firebase
+  - GraphQL
+  - Java
+  - Kotlin
+  - Next.js
+  - Python
+  - Rust
+  - SQL
+  - Scala
+  - TypeScript
+  - iOS
+  tags: []
+  website: https://ouraring.com/
+- description: A software development consulting company that has grown its experienced
+    team at insane pace. All employees are shareholders, and thus have real access
+    to decision-making.
+  name: Luoto
+  stack:
+  - Amazon Aws
+  - Apache Kafka
+  - Apache Spark
+  - C sharp
+  - Flink
+  - Go
+  - Java
+  - JavaScript
+  - Kotlin
+  - Microsoft Azure
+  - Python
+  - Rust
+  - Scala
+  - Snowflake
+  - TypeScript
+  tags: []
+  website: https://www.luotocompany.fi/
+- description: A consulting company that has grown at a rapid pace while still maintaining
+    a low hierarchy and truly open internal communication. One of the prime operators
+    in the development of public sector services. A great place to grow for early-career
+    developers as well.
+  name: Gofore
+  stack:
+  - Amazon Aws
+  - Angular
+  - C sharp
+  - Docker
+  - Flutter
+  - Java
+  - JavaScript
+  - Kotlin
+  - Kubernetes
+  - Microsoft Azure
+  - PostgreSQL
+  - Python
+  - React Native
+  - Scala
+  - TypeScript
+  - Vue.js
+  tags: []
+  website: https://gofore.com/en/
+- description: As one would assume from the most successful gaming company from Finland,
+    Supercell is one of the best employers for a developer interested in mobile games.
+    Small development teams that are allowed to develop their games autonomously.
+    “Fail fast and learn fast” mentality.
+  name: Supercell
+  stack:
+  - Amazon Aws
+  - Android
+  - Angular
+  - C++
+  - Go
+  - Java
+  - Kotlin
+  - Node.js
+  - Terraform
+  tags: []
+  website: https://supercell.com/en/
+- description: Fraktio develops modern software with open-source technologies.
+  name: Fraktio
+  stack:
+  - Amazon Aws
+  - Docker
+  - JavaScript
+  - MongoDB
+  - MySQL
+  - PostgreSQL
+  - Scala
+  tags: []
+  website: https://www.fraktio.fi/en/
+- description: A mobile consulting company for the software industry.
+  name: Qvik
+  stack:
+  - Amazon Aws
+  - Android
+  - Angular
+  - CSS3
+  - HTML5
+  - Java
+  - JavaScript
+  - Kotlin
+  - React
+  - Vue.js
+  - iOS
+  - GCP
+  - Go
+  tags: []
+  website: https://qvik.com/
+- description: Smartly.io automates every step of social advertising to unlock greater
+    performance and creativity.
+  name: Smartly
+  stack:
+  - JavaScript
+  - Kubernetes
+  - Node.js
+  - PHP
+  - PostgreSQL
+  - Python
+  - RabbitMQ
+  - React
+  - Redis
+  - Ruby
+  - TypeScript
+  - Vue.js
+  tags: []
+  website: https://www.smartly.io/
+- description: A company that manufactures weather and industrial measuring equipment
+    and systems.
+  name: Vaisala
+  stack:
+  - .NET
+  - C
+  - C sharp
+  - C++
+  - Java
+  - React
+  tags: []
+  website: https://www.vaisala.com/en
+- description: Nokia is a Finnish multinational telecommunications, information technology,
+    and consumer electronics corporation
+  name: Nokia
+  stack:
+  - Amazon Aws
+  - Apache Airflow
+  - C
+  - C++
+  - Docker
+  - Elasticsearch
+  - Flutter
+  - Java
+  - JavaScript
+  - Jenkins
+  - Jupyter
+  - Kibana
+  - Kubernetes
+  - Logstash
+  - Microsoft Azure
+  - MongoDB
+  - Python
+  - R
+  - React Native
+  - Vue.js
+  tags: []
+  website: https://www.nokia.com/fi_fi/
+- description: Futurice is a digital innovation and engineering company with Finnish
+    roots. The core business is developing and designing digital services and products
+  name: Futurice
+  stack:
+  - .NET
+  - Amazon Aws
+  - C sharp
+  - GCP
+  - Java
+  - JavaScript
+  - Kotlin
+  - Microsoft Azure
+  - Node.js
+  - Python
+  - React
+  - React Native
+  - Swift
+  - TypeScript
+  tags: []
+  website: https://futurice.com/
+- description: Mobal is a marketing software company helping businesses manage their
+    business listings.
+  name: Mobal
+  stack:
+  - Amazon Aws
+  - Celery
+  - Django
+  - ExpressJS
+  - Flask
+  - Node.js
+  - PostgreSQL
+  - Python
+  - Redis
+  - Ruby
+  - Ruby on rails
+  - TypeScript
+  - Vue.js
+  - Vuetify
+  tags: []
+  website: https://www.mobal.io/
+- description: Pandatron is a coaching automation startup on a mission to help people
+    become better versions of themselves.
+  name: Pandatron
+  stack:
+  - Amazon Aws
+  - Amazon Elastic Beanstalk
+  - Express
+  - MongoDB
+  - Node.js
+  - Node.js
+  - Python
+  - React
+  - jQuery
+  tags: []
+  website: https://pandatron.ai/
+- description: Scandit develops real-time computer vision solutions for smartphones,
+    wearables and robots.
+  name: Scandit
+  stack:
+  - Amazon Aws
+  - Android
+  - Ansible
+  - C
+  - C++
+  - Dash
+  - Docker
+  - FastAPI
+  - Flask
+  - GitLab
+  - JavaScript
+  - Kubernetes
+  - Linux
+  - MySQL
+  - PostgreSQL
+  - Python
+  - React
+  - Terraform
+  - TypeScript
+  - iOS
+  tags: []
+  website: https://www.scandit.com/
+- description: Yousician makes learning to play an instrument fun and easy, no matter
+    your skill level.
+  name: Yousician
+  stack:
+  - C sharp
+  - Docker
+  - Flask
+  - Java
+  - Kubernetes
+  - MongoDB
+  - Python
+  - Robot Framework
+  - Terraform
+  - TypeScript
+  - Unity
+  tags: []
+  website: https://yousician.com/
+- description: Workfellow analyses business operations in real-time.
+  name: Workfellow
+  stack:
+  - Apache Kafka
+  - Apache Spark
+  - Docker
+  - Jupyter
+  - Kubernetes
+  - MS SQL
+  - Microsoft Azure
+  - NoSQL
+  - Python
+  - React
+  - SQL
+  tags: []
+  website: https://www.workfellow.ai/
+- description: Digisailx automates mind-numbing data entry tasks so people can focus
+    on meaningful things.
+  name: Digisailx
+  stack:
+  - Keras
+  - Numpy
+  - Pandas
+  - Python
+  - Pytorch
+  tags: []
+  website: https://www.digisalix.fi/
+- description: Posti is a Finnish company specializing in postal services, logistics
+    and financial administration services.
+  name: Posti
+  stack:
+  - .NET
+  - Amazon Aws
+  - C
+  - Docker
+  - JavaScript
+  - Microsoft Azure
+  - PostgreSQL
+  - Python
+  tags: []
+  website: https://www.posti.fi/
+- description: Finnair is the flag carrier and largest airline of Finland, with its
+    headquarters in Vantaa on the grounds of Helsinki Airport.
+  name: Finnair
+  stack:
+  - Amazon Aws
+  - Android
+  - Angular
+  - BigQuery
+  - CSS3
+  - Docker
+  - HTML5
+  - Java
+  - JavaScript
+  - Kotlin
+  - Node.js
+  - Python
+  - SQL
+  - SaSS
+  - Snowflake
+  - Swift
+  - TypeScript
+  - iOS
+  tags: []
+  website: https://www.finnair.com/
+- description: Nordcloud is a European leader in cloud implementation, application
+    development, managed services and training.
+  name: Nordcloud
+  stack:
+  - Ansible
+  - Aurora
+  - Bash
+  - CloudFormation
+  - Docker
+  - DynamoDB
+  - Flutter
+  - GCP
+  - JavaScript
+  - Jenkins
+  - Kubernetes
+  - Microsoft Azure
+  - MySQL
+  - Node.js
+  - PostgreSQL
+  - Python
+  - React
+  - React Native
+  - Redshift
+  - Terraform
+  - Vue.js
+  tags: []
+  website: https://nordcloud.com/
+- description: Oda is building an online grocery store in the Nordics.
+  name: Oda
+  stack:
+  - BigQuery
+  - CSS3
+  - Datadog
+  - Django
+  - Docker
+  - GCP
+  - HTML5
+  - JavaScript
+  - Kubernetes
+  - Linux
+  - PostgreSQL
+  - Python
+  - React
+  - Salt
+  - Terraform
+  - VividCortex
+  tags: []
+  website: https://oda.com/
+- description: Vertics is a youthful software specialist house. They do projects directly
+    for customers.
+  name: Vertics
+  stack:
+  - Amazon Aws
+  - GCP
+  - Node.js
+  - PostgreSQL
+  - React
+  - React Native
+  - Redux
+  - TypeScript
+  tags: []
+  website: https://vertics.co/
+- description: Videoly automatically connects the world’s best product videos to online
+    stores.
+  name: Videoly
+  stack:
+  - Kinesis
+  - Node.js
+  - Redshift
+  - Ruby
+  tags: []
+  website: https://videoly.co/
+- description: Huld's mission is to provide technological design expertise to customers.
+  name: Huld
+  stack:
+  - Android
+  - C
+  - C++
+  - Docker
+  - Flutter
+  - Kubernetes
+  - Linux
+  - Python
+  - React Native
+  - Robot Framework
+  - Terraform
+  - iOS
+  tags: []
+  website: https://huld.io/
+- description: Mapbox provides precise location data and powerful developer tools
+    for navigation.
+  name: Mapbox
+  stack:
+  - Amazon Aws
+  - Android
+  - C++
+  - Dart
+  - Java
+  - JavaScript
+  - Kotlin
+  - Metal
+  - Objective--C
+  - OpenGL
+  - Python
+  - React Native
+  - Swift
+  - Vulkan
+  - WebGl
+  - iOS
+  tags: []
+  website: https://www.mapbox.com/
+- description: 'Synopsys is an US electronic design automation company that focuses
+    on silicon design and verification, and software security and quality. '
+  name: Synopsys
+  stack:
+  - Amazon Aws
+  - Angular
+  - Apache Kafka
+  - Docker
+  - GCP
+  - Java
+  - Kubernetes
+  - MongoDB
+  - NoSQL
+  - Python
+  - RabbitMQ
+  - React
+  - SQL
+  tags: []
+  website: https://www.synopsys.com/
+- description: Swarma provides insights and tools for high-performing engineering
+    teams.
+  name: Swarmia
+  stack:
+  - ''
+  - Apollo Server
+  - Docker
+  - GCP
+  - GraphQL
+  - Kubernetes
+  - Node.js
+  - PostgreSQL
+  - React
+  - Sentry
+  - Slonik
+  - Terraform
+  - TypeScript
+  tags: []
+  website: https://www.swarmia.com/
+- description: 'Nvidia is an American multinational technology company. Nvidia GPU''s,
+    API''s and high-performance computing. '
+  name: Nvidia
+  stack:
+  - Bash
+  - Blender
+  - C
+  - C++
+  - Docker
+  - Go
+  - Java
+  - Kubernetes
+  - Linux
+  - Maya
+  - Python
+  - Starlark
+  - Unreal Engine
+  tags: []
+  website: https://www.nvidia.com/en-us/
+- description: CubiCasa develops a floor planning solution for iOS and Android devices.
+  name: CubiCasa
+  stack:
+  - Amazon Aws
+  - Android
+  - C++
+  - CSS3
+  - CocoaPods
+  - Docker
+  - Firebase
+  - HTML5
+  - Kubernetes
+  - Python
+  - Swift
+  - iOS
+  tags: []
+  website: https://www.cubi.casa/
+- description: Electronic Arts that develops and publishes video games.
+  name: Electronic Arts
+  stack:
+  - ActionScript
+  - C sharp
+  - C++
+  - CSS3
+  - Docker
+  - Go
+  - HTML5
+  - Java
+  - JavaScript
+  - Kubernetes
+  - Linux
+  - Lua
+  - Python
+  - Ruby
+  - Terraform
+  tags: []
+  website: https://www.ea.com/
+- description: Spotify is a proprietary Swedish audio streaming and media services
+    provider.
+  name: Spotify
+  stack:
+  - Android
+  - BigQuery
+  - C++
+  - CSS3
+  - Docker
+  - GCP
+  - Grafana
+  - HTML5
+  - Java
+  - Javascript
+  - Kotlin
+  - Kubernetes
+  - Objective--C
+  - PagerDuty
+  - Python
+  - React
+  - SQL
+  - Scala
+  - Swift
+  - TypeScript
+  - iOS
+  tags: []
+  website: https://www.lifeatspotify.com/
+- description: Nordnet is a pan-Nordic financial services company, headquartered in
+    Stockholm, Sweden.
+  name: Nordnet
+  stack:
+  - Android
+  - CSS3
+  - Docker
+  - GCP
+  - HTML5
+  - Java
+  - JavaScript
+  - Kubernetes
+  - MSSQL
+  - Maven
+  - Nginx
+  - Node.js
+  - React
+  - React Native
+  - SQL
+  - Spring Boot
+  - TypeScript
+  - iOS
+  - jUnit
+  tags: []
+  website: https://nordnetab.com/
+- description: Noice is a startup working on a Social Multiplayer game platform for
+    gamers.
+  name: Noice
+  stack:
+  - Android
+  - Flutter
+  - Go
+  - Grafana
+  - Helm
+  - Kubernetes
+  - Prometheus
+  - React
+  - Terraform
+  - TypeScript
+  - iOS
+  tags: []
+  website: https://noice.com/
+- description: Qualcomm is an American multinational corporation. It creates semiconductors,
+    software, and services related to wireless technology.
+  name: Qualcomm
+  stack:
+  - Amazon Aws
+  - C
+  - C++
+  - DynamoDB
+  - Java
+  - Linux
+  - MATLAB
+  - MongoDB
+  - NoSQL
+  - Node.js
+  - Python
+  - TypeScript
+  tags: []
+  website: https://www.qualcomm.com/home
+- description: Hansen Technologies is a global provider of customer care, billing
+    software and data management systems.
+  name: Hansen Technologies
+  stack:
+  - .NET
+  - Amazon Aws
+  - Angular
+  - C sharp
+  - C++
+  - JavaScript
+  - Jenkins
+  - Linux
+  - Microsoft Azure
+  - Oracle
+  - Robot Framework
+  - Splunk
+  - TypeScript
+  tags: []
+  website: https://www.hansencx.com/
+- description: Canonical is a UK-based computer software company that develops Ubuntu
+    related services.
+  name: Canonical
+  stack:
+  - Bash
+  - C
+  - C++
+  - Docker
+  - Go
+  - JavaScript
+  - Juju
+  - Kubernetes
+  - Linux
+  - Mesa
+  - NoSQL
+  - Node.js
+  - OpenGL
+  - PostgreSQL
+  - Python
+  - React
+  - Shell
+  - Ubuntu
+  - Vulkan
+  tags: []
+  website: https://canonical.com/
+- description: Metacore is formed by small game teams, each deciding which games to
+    build, when to ship them, and when to pivot or kill them.
+  name: Metacore
+  stack:
+  - C sharp
+  - NoSQL
+  - Docker
+  - .NET
+  - Amazon Aws
+  tags: []
+  website: https://metacoregames.com/
+- description: We are a fast-growing company that want to revolutionize the Financial
+    Industry.
+  name: Crosskey
+  stack:
+  - Amazon Aws
+  - Gradle
+  - Spring Boot
+  - Vaadin
+  - Oracle
+  - JBoss
+  - Jenkins
+  - CI
+  - CD
+  - Jira
+  - jUnit
+  tags: []
+  website: https://www.crosskey.fi/
+- description: Ericsson creates limitless connectivity to improve lives, redefine
+    business and pioneer a sustainable future.
+  name: Ericsson
+  stack:
+  - React
+  - TypeScript
+  - GraphQL
+  - Node.js
+  - REST
+  - Python
+  - Ansible
+  - PostgreSQL
+  - Amazon Aws
+  - GCP
+  - OpenStack
+  - Robot Framework
+  - Docker
+  - Kubernetes
+  - Cypress
+  - Jenkins
+  tags: []
+  website: https://www.ericsson.com/en
+- description: Innofactor is the leading driver of the modern digital organization
+    in the Nordic Countries for its over 1,000 customers in commercial, public and
+    third sector.
+  name: Innofactor
+  stack:
+  - C sharp
+  - .NET
+  - Vue.js
+  - React
+  - Angular
+  - Docker
+  tags: []
+  website: https://www.innofactor.com
+- description: Tietoevry creates digital advantage for businesses and societies.
+  name: Tietoevry
+  stack:
+  - C sharp
+  - .NET
+  - Vue.js
+  - React
+  - Angular
+  - Blazor
+  - SQL
+  - HTML5
+  - CSS3
+  - TypeScript
+  - GIT
+  - Microsoft Azure
+  - GitLab
+  - Github
+  - Python
+  - PySpark
+  - Databricks
+  - Azure Synapse
+  - NoSQL
+  - MongoDB
+  - Docker
+  - Kubernetes
+  tags: []
+  website: https://www.tietoevry.com/

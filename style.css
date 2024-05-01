@@ -1,0 +1,201 @@
+body {
+  font-family: -apple-system, Ubuntu, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  background-color: #1b2735;
+  color: #ffffff;
+}
+
+.searchInput {
+  border-radius: 50px;
+  border: none;
+  padding: 0 15px;
+  font-size: 16px;
+  height: 44px;
+  width: 500px;
+}
+
+.searchInput:focus-visible {
+  outline: none;
+}
+
+.card-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.stack-filters-container {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.checkbox-container {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 18px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.checkbox-container  input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+}
+
+.checkbox-container :hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-container  input:checked ~ .checkmark {
+  background-color: #2196F3;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-container  input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-container  .checkmark:after {
+  left: 6px;
+  top: 3px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+.cards-container {
+  display: flex;
+  padding: 30px;
+}
+
+/* HEADING */
+
+.heading {
+  text-align: center;
+}
+
+.heading__title {
+  font-weight: 900;
+  color: #ffffff;
+}
+
+.card__subtitle {
+  font-weight: 200;
+  color: #ffffff
+}
+
+.heading__link {
+  text-decoration: none;
+  color: #bb86fc;
+}
+
+.heading__credits .heading__link {
+  color: inherit;
+}
+
+/* CARDS */
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 20px;
+  width: 450px;
+  min-height: 200px;
+  max-height: 500px;
+  border-radius: 10px;
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.25);
+  transition: all 0.2s;
+}
+
+.card:hover {
+  box-shadow: 0 6px 10px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+}
+
+.card__link {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.card__link:hover {
+  width: 100%;
+}
+
+.card__title {
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.card__flavor {
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.card__stack {
+  font-weight: 200;
+  margin-bottom: 20px;
+}
+
+.card__website {
+  align-self: start;
+}
+
+/* CARD BACKGROUNDS - Modified for darker gradients */
+
+.card-1 {
+  background: radial-gradient(at top left, #0093E9, #80D0C7);
+}
+
+.card-2 {
+  background: linear-gradient(to right, #355c7d, #6c5b7b);
+}
+
+.card-3 {
+  background: linear-gradient(to right, #008080, #004d40);
+}
+
+.card-4 {
+  background: linear-gradient(to right, #009688, #004d40);
+}
+
+.card-5 {
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
+}
+

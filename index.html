@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sudo Finland</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-yaml@4/dist/js-yaml.min.js"></script>
+</head>
+<body>
+    <div class="card-page">
+      <div class="heading">
+        <h1 class="heading__title">Company Search</h1>
+          <p class="heading__credits">Search Finnish IT companies by tech stack</p>
+            <div class="search">
+                <input type="text" id="searchInput" class="searchInput"  placeholder="Search by company name..." oninput="searchCards()">
+            </div>
+      </div>
+      <div class="cards-container">
+          <div class="stack-filters-container" id="stackFilters" >
+                <!-- Radio buttons will be dynamically generated here -->
+          </div>
+          <div class="cards" id="cards">
+            <!-- Cards will be populated here using JavaScript -->
+          </div>
+      </div>
+  </div>
+<script src="app.js"></script>
+</body>
+</html>
