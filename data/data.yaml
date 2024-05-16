@@ -846,6 +846,8 @@ companies:
   - Android
   - Angular
   - C++
+  - Databricks
+  - Spark
   - Go
   - Java
   - Kotlin
@@ -1564,4 +1566,57 @@ companies:
   - Java Quarkus
   tags: []
   website: https://www.capgemini.com/
+- description: Reload Search is a boutique recruitment firm specialising in sourcing and relocating technology talent across the Globe.
+  name: ReloadSearch
+  stack:
+  - Go
+  - PostgreSQL
+  - GCP
+  - Kubernetes
+  - Docker
+  tags: []
+  website: https://reloadsearch.com/
+- description: Nosto is a global leader in the booming e-commerce space
+  name: Nosto
+  stack:
+  - React
+  - Vue.js
+  - PHP
+  - TypeScript
+  - Nest.js
+  - Java
+  tags: []
+  website: https://www.nosto.com/
+- description: Netlight provides a full range of premium IT-consulting services at the forefront of the digital industry.
+  name: Netlight
+  stack:
+  - Python
+  - Amazon Aws
+  - GCP
+  - Apache Spark
+  - Apache Kafka
+  - Apache Airflow
+  - RabbitMQ
+  - Kinesis
+  - Jenkins
+  - Azure
+  - PostgreSQL
+  - MySQL
+  - Snowflake
+  - Redshift
+  tags: []
+  website: https://www.netlight.com/
+- description: Skylo Technologies is transforming communication by deploying the world’s most affordable satellite-based network.
+  name: Skylo
+  stack:
+  - Jenkins
+  - GitLab
+  - Python
+  - Ruby
+  - RobotFramework
+  - Terraform
+  - Ansible
+  - Puppet
+  tags: []
+  website: https://www.skylo.tech/
 
