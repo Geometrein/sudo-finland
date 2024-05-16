@@ -1528,3 +1528,40 @@ companies:
   - Kubernetes
   tags: []
   website: https://www.tietoevry.com/
+- description: CGI CGI Suomi sells IT consulting, IT infrastructure solutions, information systems integration services.
+  name: CGI
+  stack:
+  - React
+  - Kubernetes
+  - Rest
+  - SOAP
+  - Gitlab
+  - Maven
+  - Flyway
+  - PostgreSQL
+  - React
+  - NextJS
+  - Java
+  - Java Spring boot
+  - Java Quarkus
+  tags: []
+  website: https://www.cgi.com/fi/
+- description: Capgemini is a French multinational information technology (IT) services and consulting company, headquartered in Paris, France.
+  name: Capgemini
+  stack:
+  - GCP
+  - Amazon Aws
+  - Azure
+  - Kubernetes
+  - Docker
+  - Packer
+  - Terraform
+  - Cloud Formation
+  - Go
+  - Ruby
+  - Python
+  - Linux
+  - Java Quarkus
+  tags: []
+  website: https://www.capgemini.com/
+

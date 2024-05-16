@@ -10,7 +10,8 @@ body {
   padding: 0 15px;
   font-size: 16px;
   height: 44px;
-  width: 500px;
+  width: 80vw;
+  min-width: 200px;
 }
 
 .searchInput:focus-visible {
@@ -26,6 +27,7 @@ body {
 .stack-filters-container {
     padding: 20px;
     box-sizing: border-box;
+    width: 20vw;
 }
 
 .checkbox-container {
@@ -136,7 +138,8 @@ body {
   justify-content: space-between;
   margin: 20px;
   padding: 20px;
-  width: 450px;
+  width: 20vw;
+  min-width: 250px;
   min-height: 200px;
   max-height: 500px;
   border-radius: 10px;
@@ -180,7 +183,7 @@ body {
 /* CARD BACKGROUNDS - Modified for darker gradients */
 
 .card-1 {
-  background: radial-gradient(at top left, #0093E9, #80D0C7);
+  background: linear-gradient(to right, #2c3e50, #4ca1af);
 }
 
 .card-2 {
@@ -199,3 +202,8 @@ body {
   background: linear-gradient(to right, #2c3e50, #4ca1af);
 }
 
+@media only screen and (max-width: 768px) {
+    .hide-on-mobile {
+        display: none;
+    }
+}
