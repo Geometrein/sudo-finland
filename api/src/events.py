@@ -125,7 +125,7 @@ async def meetup_main() -> None:
             f"<b>Event:</b> {title}\n\n"
             f"<b>Date and Time:</b> {date_time}\n\n"
             f"<b>Group:</b> {group_name}\n\n"
-            f"<b>URL:</b> {event_url}\n\n"
+            f"<b>URL:</b> <a href='{event_url}'>Event Link</a>\n\n"
             f"<b>Tags:</b> #events"
         )
         await send_single_message(message)
