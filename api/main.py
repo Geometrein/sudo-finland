@@ -1,7 +1,7 @@
 import logging
 import os
 
-from fastapi import FastAPI, Depends, HTTPException
+from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
 from src.events import meetup_main
 

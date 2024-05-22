@@ -92,7 +92,8 @@ async def send_single_message(text: str) -> None:
         await BOT.send_message(
             chat_id=CHANNEL_ID,
             text=text,
-            parse_mode=ParseMode.HTML
+            parse_mode=ParseMode.HTML,
+            message_thread_id=282
         )
         logger.info(f"Message sent to: {CHANNEL_ID}")
     except Exception as error:
