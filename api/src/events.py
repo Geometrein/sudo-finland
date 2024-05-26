@@ -116,6 +116,7 @@ async def fetch_events(url: str, headers: dict, payload: dict) -> list:
 async def meetup_main() -> None:
     payload = generate_dynamic_payload()
     events = await fetch_events(FEED_URL, HEADERS, payload)
+    logger.info(f'Found {len(events)} events.')
     for event in events:
         node = event['node']
         title = node['title']
@@ -130,6 +131,7 @@ async def meetup_main() -> None:
             f"<b>Tags:</b> #events"
         )
         await send_single_message(message)
+        logger.info(f'Event sent to group.')
         time.sleep(2)
 
 
