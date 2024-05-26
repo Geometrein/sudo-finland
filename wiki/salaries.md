@@ -1,12 +1,13 @@
-# Salaries
+# 💶 Salaries
 
 ## Men
 
 ### By Specialization
+
 Monthly wages in the private sector in 2022. Source: Tilastokeskus
 
 | Number | Category                                                                   | Number | Average of earnings for regular hours worked | 1st decile of earnings for regular hours worked | Median of earnings for regular hours worked | 9th decile of earnings for regular hours worked |
-|--------|----------------------------------------------------------------------------|--------|----------------------------------------------|-------------------------------------------------|---------------------------------------------|-------------------------------------------------|
+| ------ | -------------------------------------------------------------------------- | ------ | -------------------------------------------- | ----------------------------------------------- | ------------------------------------------- | ----------------------------------------------- |
 |        | 2022                                                                       |        |                                              |                                                 |                                             |                                                 |
 |        | Males                                                                      |        |                                              |                                                 |                                             |                                                 |
 | 25     | Information and communications technology professionals                    | 44,348 | 5,061                                        | 3,369                                           | 4,925                                       | 6,820                                           |
@@ -22,11 +23,10 @@ Monthly wages in the private sector in 2022. Source: Tilastokeskus
 | 2523   | Computer network professionals                                             | 844    | 4,938                                        | 3,273                                           | 4,661                                       | 6,840                                           |
 | 2529   | Database and network professionals not elsewhere classified                | 2,178  | 5,745                                        | 3,904                                           | 5,500                                       | 7,779                                           |
 
-
 ### By age group
 
 | Number | Category                                                | Number | Average of earnings for regular hours worked | 1st decile of earnings for regular hours worked | Median of earnings for regular hours worked | 9th decile of earnings for regular hours worked |
-|--------|---------------------------------------------------------|--------|----------------------------------------------|-------------------------------------------------|---------------------------------------------|-------------------------------------------------|
+| ------ | ------------------------------------------------------- | ------ | -------------------------------------------- | ----------------------------------------------- | ------------------------------------------- | ----------------------------------------------- |
 |        | 2022                                                    |        |                                              |                                                 |                                             |                                                 |
 |        | Males                                                   |        |                                              |                                                 |                                             |                                                 |
 | 25     | Information and communications technology professionals |        |                                              |                                                 |                                             |                                                 |
@@ -37,14 +37,14 @@ Monthly wages in the private sector in 2022. Source: Tilastokeskus
 | 50-59  |                                                         | 9,360  | 5,518                                        | 4,000                                           | 5,341                                       | 7,024                                           |
 | 60-    |                                                         | 2,604  | 5,374                                        | 3,906                                           | 5,227                                       | 6,909                                           |
 
-
 ## Women
 
 ### By Specialization
+
 Monthly wages in the private sector in 2022. Source: Tilastokeskus
 
 | Number | Category                                                                   | Number | Average of earnings for regular hours worked | 1st decile of earnings for regular hours worked | Median of earnings for regular hours worked | 9th decile of earnings for regular hours worked |
-|--------|----------------------------------------------------------------------------|--------|----------------------------------------------|-------------------------------------------------|---------------------------------------------|-------------------------------------------------|
+| ------ | -------------------------------------------------------------------------- | ------ | -------------------------------------------- | ----------------------------------------------- | ------------------------------------------- | ----------------------------------------------- |
 |        | 2022                                                                       |        |                                              |                                                 |                                             |                                                 |
 |        | Females                                                                    |        |                                              |                                                 |                                             |                                                 |
 | 25     | Information and communications technology professionals                    | 14,655 | 4,731                                        | 3,295                                           | 4,600                                       | 6,276                                           |
@@ -63,7 +63,7 @@ Monthly wages in the private sector in 2022. Source: Tilastokeskus
 ### By age group
 
 | Number | Category                                                | Number | Average of earnings for regular hours worked | 1st decile of earnings for regular hours worked | Median of earnings for regular hours worked | 9th decile of earnings for regular hours worked |
-|--------|---------------------------------------------------------|--------|----------------------------------------------|-------------------------------------------------|---------------------------------------------|-------------------------------------------------|
+| ------ | ------------------------------------------------------- | ------ | -------------------------------------------- | ----------------------------------------------- | ------------------------------------------- | ----------------------------------------------- |
 |        | 2022                                                    |        |                                              |                                                 |                                             |                                                 |
 |        | Females                                                 |        |                                              |                                                 |                                             |                                                 |
 | 25     | Information and communications technology professionals |        |                                              |                                                 |                                             |                                                 |
@@ -74,9 +74,8 @@ Monthly wages in the private sector in 2022. Source: Tilastokeskus
 | 50-59  |                                                         | 3,959  | 5,066                                        | 3,680                                           | 4,948                                       | 6,582                                           |
 | 60-    |                                                         | 1,135  | 4,932                                        | 3,577                                           | 4,797                                       | 6,322                                           |
 
-
----
+***
 
 ## Resources
 
-[![statfin](https://img.shields.io/badge/Tilastokeskus-505050?style=for-the-badge&logo=redux&logoColor=white)](https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/)
+[![statfin](https://img.shields.io/badge/Tilastokeskus-505050?style=for-the-badge\&logo=redux\&logoColor=white)](https://pxdata.stat.fi/PxWeb/pxweb/en/StatFin/)
