@@ -9,6 +9,6 @@ You can view the wiki directly as `.md` files in the  root repo:
 
 or you can access the prettier version here:
 
-[![sudo_finland_wiki](https://img.shields.io/badge/sudo_finland_wiki-505050?style=for-the-badge\&logo=gitbook\&logoColor=white)](https://geometrein.gitbook.io/sudo-finland.)
+[![sudo_finland_wiki](https://img.shields.io/badge/sudo_finland_wiki-505050?style=for-the-badge\&logo=gitbook\&logoColor=white)](https://geometrein.gitbook.io/sudo-finland)
 
-**NOTE:** All `.md` files added to `wiki` directory off the repo will be automatically synced and deployed to gitbook and will be available with the link above.
+**NOTE:** All `.md` files added to `wiki` directory of the repo will be automatically synced and deployed to gitbook and will be available with the link above.
