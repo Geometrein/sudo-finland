@@ -1,6 +1,6 @@
 # Table of contents
 
-* [🤝 collective\_agreements](README.md)
+* [🤝 Welcome to Sudo Finland Wiki](README.md)
 * [💱 Earnings related Unemployment Allowance](earnings\_related\_unemployment\_allowance.md)
 * [👵 pensions](pensions.md)
 * [💶 Salaries](salaries.md)
