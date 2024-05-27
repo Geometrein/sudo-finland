@@ -6,4 +6,6 @@
 * [💶 Salaries](salaries.md)
 * [💸 taxes](taxes.md)
 * [🧾 Trade Unions](unions.md)
-* [🎛️ Company Stack Viewer](company-stack-viewer.md)
+* [🎛️ Company Stack Viewer](company_stack_viewer.md)
+* [🎛️ Job Search](job_search.md)
+* [🎛️ Employee Benefits.md](employee_benefits.md)
