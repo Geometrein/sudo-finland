@@ -22,6 +22,13 @@ Subsidized workplace meals
 
 Nowadays, lunch vouchers are mostly digital and are provided through employee benefit provider such as [Edenred](https://edenred.fi/en/) and [Epassi](https://www.epassi.fi/fi/etusivu).
 
+Normally, employee request a certain balance from the employer and employer pays for a certain percentage of the requested balance while the rest is subtracted from next months salary.
+
+**For example:**
+Employee may request 100€ ofr this month's lunch benefits, employer will deposit that amount on the Edenred or Epassi account balance.
+Employer will pay for 25% (25€) while the remaining 75% (75€) will be subtracted from employees next salary.
+It's a mutually beneficial arrangement where employee gets a certain % discount while employer can deduct these spending from companies taxes.
+
 ## Sports and Culture Benefits
 Employers can offer up to €400 annually in tax-exempt sports and culture benefits.
 These can be provided via vouchers or other means of payment and can be used for virtual events and certain trade fairs.

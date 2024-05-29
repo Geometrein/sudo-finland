@@ -8,4 +8,4 @@
 * [🧾 Trade Unions](unions.md)
 * [🎛️ Company Stack Viewer](company_stack_viewer.md)
 * [🎛️ Job Search](job_search.md)
-* [🎛️ Employee Benefits.md](employee_benefits.md)
+* [🎛️ Employee Benefits](employee_benefits.md)

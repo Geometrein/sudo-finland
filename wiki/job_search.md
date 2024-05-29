@@ -1,7 +1,7 @@
 # Job Search
 ## Finnish Job Search Websites
-Widest search method is using job finding platforms:
-- [LinedIn](https://www.linkedin.com/jobs/)
+The most consistent search method is using job finding platforms:
+- [LinkedIn](https://www.linkedin.com/jobs/)
 - [The Hub](https://thehub.io/)
 - [Work In Finland](https://www.workinfinland.com/en/open-jobs/)
 - [Duunitori](https://duunitori.fi/)
@@ -10,8 +10,8 @@ Widest search method is using job finding platforms:
 - [Eezy](https://tyopaikat.eezy.fi/fi)
 - [Valtiolle](https://valtiolle.fi/)
 
-Unfortunately, it is common for companies to leave the applications unanswered. Therefore, apply to many positions and always make sure to follow up if you get no response.
-
+Unfortunately, it is common for companies to leave the applications unanswered.
+Therefore, apply to many positions and always make sure to follow up if you get no response.
 
 # Meetups, Networking & LinkedIn
 In Finland, big portion of job openings are not publicly advertised hence Networking and LinkedIn are crucial for job search.
