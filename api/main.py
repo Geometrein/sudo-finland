@@ -24,7 +24,9 @@ class EventItem(BaseModel):
 
 class JobItem(BaseModel):
     token: str
-    params: dict
+    keyword: str
+    location_id: int
+    date_posted: str
 
 
 @app.get("/")
@@ -50,7 +52,7 @@ async def publish_events(item: EventItem):
 async def publish_job_listings(item: JobItem):
     try:
         if item.token == AUTH_TOKEN:
-            await jobs_main(item.params)
+            await jobs_main(item)
             return {"message": "Successfully published jobs.", "status_code": 200}
         else:
             raise HTTPException(status_code=403,  detail="You shall not pass!")

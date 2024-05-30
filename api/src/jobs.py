@@ -28,10 +28,16 @@ JOBS_API_HOST = os.getenv('JOBS_API_HOST')
 JOBS_API_URL = os.getenv('JOBS_API_URL')
 
 
-def get_job_listings(params):
+def get_job_listings(item):
     headers = {
         f'x-{JOBS_API_PROVIDER}-key': JOBS_API_KEY,
         f'x-{JOBS_API_PROVIDER}-host': JOBS_API_HOST
+    }
+    params = {
+        "keywords": item.keyword,
+        "locationId": item.location_id,  # Helsinki Metropolitan Area
+        "datePosted": item.date_posted,
+        "sort": "mostRelevant"
     }
 
     response = requests.get(JOBS_API_URL, headers=headers, params=params)
@@ -52,7 +58,8 @@ def get_job_listings(params):
 def preprocess_listings(response_object):
     response_dict = response_object.json()
     messages = []
-    for listing_dict in response_dict['data']:
+    top_k = 5
+    for listing_dict in response_dict['data'][:top_k]:
         job_title = listing_dict['title']
         url = listing_dict['url']
         company_name = listing_dict["company"]["name"]
@@ -65,7 +72,7 @@ def preprocess_listings(response_object):
             f"<b>Tags:</b> #job"
         )
         messages.append(message)
-        time.sleep(1)
+        time.sleep(2)
     return messages
 
 
@@ -83,19 +90,9 @@ async def send_to_telegram(message_text):
         logger.error(f"Failed to send the message {error}")
 
 
-async def jobs_main(params):
-    jobs_api_response = get_job_listings(params)
+async def jobs_main(item):
+    jobs_api_response = get_job_listings(item)
     messages = preprocess_listings(response_object=jobs_api_response)
     logger.info(f"Sending {len(messages)} listings as messages.")
     for message in messages:
         await send_to_telegram(message)
-
-
-if __name__ == '__main__':
-    test_params = {
-        "keywords": "softwere developper",
-        "locationId": 106591199,  # Helsinki Metropolitan Area
-        "datePosted": "past24Hours",
-        "sort": "mostRelevant"
-    }
-    asyncio.run(jobs_main(test_params))
