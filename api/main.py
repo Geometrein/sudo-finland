@@ -3,7 +3,9 @@ import os
 
 from fastapi import FastAPI, HTTPException
 from pydantic import BaseModel
+
 from src.events import meetup_main
+from src.jobs import jobs_main
 
 # logging
 LOGGING_FORMAT = "%(asctime)s - %(levelname)s - %(filename)s:%(lineno)d - %(message)s"
@@ -20,6 +22,11 @@ class EventItem(BaseModel):
     token: str
 
 
+class JobItem(BaseModel):
+    token: str
+    params: dict
+
+
 @app.get("/")
 async def root():
     return {"message": "-Luke, I am your API. -Noooo.", "status_code": 200}
@@ -31,6 +38,20 @@ async def publish_events(item: EventItem):
         if item.token == AUTH_TOKEN:
             await meetup_main()
             return {"message": "Successfully published events.", "status_code": 200}
+        else:
+            raise HTTPException(status_code=403,  detail="You shall not pass!")
+    except Exception as e:
+        raise HTTPException(
+            status_code=500, detail=f"Encountered an Unexpected error: {e}"
+        )
+
+
+@app.post("/publish-jobs/")
+async def publish_job_listings(item: JobItem):
+    try:
+        if item.token == AUTH_TOKEN:
+            await jobs_main(item.params)
+            return {"message": "Successfully published jobs.", "status_code": 200}
         else:
             raise HTTPException(status_code=403,  detail="You shall not pass!")
     except Exception as e:
