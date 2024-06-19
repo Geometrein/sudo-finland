@@ -92,8 +92,7 @@ async def send_single_message(text: str) -> None:
         await BOT.send_message(
             chat_id=CHANNEL_ID,
             text=text,
-            parse_mode=ParseMode.HTML,
-            message_thread_id=282
+            parse_mode=ParseMode.HTML
         )
         logger.info(f"Message sent to: {CHANNEL_ID}")
     except Exception as error:
@@ -128,7 +127,7 @@ async def meetup_main() -> None:
             f"<b>Date and Time:</b> {date_time}\n\n"
             f"<b>Group:</b> {group_name}\n\n"
             f"<b>URL:</b> <a href='{event_url}'>Event Link</a>\n\n"
-            f"<b>Tags:</b> #events"
+            f"<b>Tags:</b> #events, #itevents, #itfinland"
         )
         await send_single_message(message)
         logger.info(f'Event sent to group.')

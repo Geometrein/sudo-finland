@@ -1,7 +1,6 @@
 import os
 import logging
 import requests
-import time
 
 import asyncio
 import telegram
@@ -55,10 +54,9 @@ def get_job_listings(item):
         response.raise_for_status()
 
 
-def preprocess_listings(response_object):
+def preprocess_listings(response_object, top_k=10):
     response_dict = response_object.json()
     messages = []
-    top_k = 5
     for listing_dict in response_dict['data'][:top_k]:
         job_title = listing_dict['title']
         url = listing_dict['url']
@@ -67,12 +65,10 @@ def preprocess_listings(response_object):
         message = (
             f"<b>Company:</b> {company_name}\n"
             f"<b>Job Title:</b> {job_title}\n"
-            f"<b>Post Date:</b> {post_date}\n"
             f"<b>Link:</b> <a href='{url}'>Job Link</a>\n"
-            f"<b>Tags:</b> #job"
+            f"<b>Tags:</b> #job, #itjobsfinland, #itjobs"
         )
         messages.append(message)
-        time.sleep(2)
     return messages
 
 
@@ -82,8 +78,7 @@ async def send_to_telegram(message_text):
         await BOT.send_message(
             chat_id=CHANNEL_ID,
             text=message_text,
-            parse_mode=ParseMode.HTML,
-            message_thread_id=2
+            parse_mode=ParseMode.HTML
         )
         logger.info(f"Message sent to: {CHANNEL_ID}")
     except Exception as error:
