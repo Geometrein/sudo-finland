@@ -56,7 +56,8 @@ def get_job_listings(item):
 
 def preprocess_listings(response_object, top_k=10):
     response_dict = response_object.json()
-    messages = []
+    messages = "Today's job listings:\n\n"
+
     for listing_dict in response_dict['data'][:top_k]:
         job_title = listing_dict['title']
         url = listing_dict['url']
@@ -65,10 +66,10 @@ def preprocess_listings(response_object, top_k=10):
         message = (
             f"<b>Company:</b> {company_name}\n"
             f"<b>Job Title:</b> {job_title}\n"
-            f"<b>Link:</b> <a href='{url}'>Job Link</a>\n"
-            f"<b>Tags:</b> #job, #itjobsfinland, #itjobs"
+            f"<b>Link:</b> <a href='{url}'>Job Link</a>\n\n"
         )
-        messages.append(message)
+        messages += message
+    messages += f"<b>\nTags:</b> #job, #itjobsfinland, #itjobs"
     return messages
 
 
@@ -89,5 +90,4 @@ async def jobs_main(item):
     jobs_api_response = get_job_listings(item)
     messages = preprocess_listings(response_object=jobs_api_response)
     logger.info(f"Sending {len(messages)} listings as messages.")
-    for message in messages:
-        await send_to_telegram(message)
+    await send_to_telegram(messages)
